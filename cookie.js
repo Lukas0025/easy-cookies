@@ -22,7 +22,7 @@ function getCookie(name){
     if (name == null){
         console.error("Name is not defined");
     }else{
-	    name += '=';
+	name += '=';
         for (var ca = document.cookie.split(/;\s*/), i = ca.length - 1; i >= 0; i--){
             if (!ca[i].indexOf(name)){
                 return ca[i].replace(name, '');
@@ -45,7 +45,7 @@ function deleteCookie(name) {
 }
 
 function deleteallCookie(){
-	var cookies = document.cookie.split(";");
+    var cookies = document.cookie.split(";");
     for (var i = 0; i < cookies.length; i++){   
         var cookie = cookies[i].split("=");
         document.cookie = cookie[0] + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';                                
