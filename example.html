@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>JS Cookie</title>
+<script src="cookie.js"></script>
+</head>
+<body>
+<h1>This is an example of functioning cookie.js</h1>
+<button onclick='setCookie("test", "1");' type="button">Set cookie (cookie name = test, Volume = 1 )</button>
+<button onclick='setCookie("test2", "2", "1");' type="button">Set cookie (cookie name = test2, Volume = 2, expire = 1 day)</button>
+<button onclick='alert(getCookie("test"));' type="button">Get cookie test</button>
+<button onclick='alert(allCookie());' type="button">Get all cookies</button>
+<button onclick='deleteCookie("test");' type="button">Delete cookie test</button>
+<button onclick='deleteallCookie();' type="button">Delete all cookies</button>
+</body>
+</html>
