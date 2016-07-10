@@ -1,4 +1,4 @@
-# easy-cookies
+# easy-js-cookies
 Open source software that is designed to facilitate operations with cookies.
 
 #####Booting into your code:
