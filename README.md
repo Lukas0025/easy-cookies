@@ -56,6 +56,6 @@ Example:
 var allcookies = allCookie();
 alert(allcookies);
 // alert output is name of cookie = value of cookie; next cookie
-//Example:
+// Example:
 // test1=1;test2=2
 ```
