@@ -1,13 +1,13 @@
 # easy JS Cookies
 Open source software that is designed to facilitate operations with cookies.
 
-#####Booting into your code:
+##### Booting into your code:
 ```html
 <script src="cookie.js"></script>
 ```
 ## Usage
 
-#####Creating a cookie:
+##### Creating a cookie:
 ```javascript
 setCookie(name, value, expire, path);
 ```
@@ -19,7 +19,7 @@ setCookie("test", "test123", "1", "/");
 setCookie("test", "test123");
 // cookie name is test and value is test123
 ```
-#####Get a cookie:
+##### Get a cookie:
 ```javascript
 var value = getCookie(name);
 ```
@@ -29,7 +29,7 @@ var value = getCookie("test");
 alert(value);
 // alert output is value of cookie with name test
 ```
-#####Delete a cookie:
+##### Delete a cookie:
 ```javascript
 deleteCookie(name);
 ```
@@ -38,7 +38,7 @@ Example:
 deleteCookie("test");
 //Deletes the cookie with name test
 ```
-#####Delete all cookies:
+##### Delete all cookies:
 ```javascript
 deleteallCookie();
 ```
@@ -47,7 +47,7 @@ Example:
 deleteallCookie();
 //Deletes all cookies
 ```
-#####Get all cookies:
+##### Get all cookies:
 ```javascript
 var allcookies = allCookie();
 ```
